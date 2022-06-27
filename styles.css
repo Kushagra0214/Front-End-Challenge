@@ -1,0 +1,157 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    padding: 10px 30px;
+    box-shadow: 0px 15px 10px -15px #111;    
+
+}
+
+.navbar .nav-item{
+    margin: 0px 10px;
+}
+
+.navbar .nav-link{
+    color: white;
+    background-color: blue;
+    padding: 4px;
+    margin-top: 4px;
+    border-radius: 60px;
+}
+
+.tasks{
+    margin: 150px 150px 0px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 10px -5px #111;    
+    padding-bottom: 35px;
+}
+
+.tasks .task-heading{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: #111;
+    padding: 10px 60px;
+    color: white;
+    background-color: blue;
+    font-size: 19px;
+}
+
+.card{
+    display:inline-flex;
+    margin: 25px 50px 0px 50px;
+    box-shadow: 10px 10px 10px -10px #111;    
+    border-radius: 20px;
+    background-color:aliceblue;
+}
+
+.card .card-title{
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;;
+}
+
+.sidemenu {
+    background-color: white;
+    position: absolute;
+    width: 250px;
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: -200px;
+    box-shadow:  10px 10px 10px -10px #111;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: linear 0.25s;
+}
+
+.sidemenu.active{
+    margin-left: 0px;
+}
+
+.sidemenu .side-menu-heading{
+    color: white;
+    background-color: #111;
+    padding: 15px 20px 5px 75px;
+    border-top-right-radius: 10px;
+    /* text-align: center; */
+}
+
+.sidemenu .subheading{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sidemenu .side-menu-heading .menu-icon{
+    align-items: right;
+    padding-left: 35px;
+}
+
+.next-button{
+    float: right;
+    margin: 40px 150px 40px auto;   
+}
+
+.btn{
+    box-shadow: 2px 10px 10px -5px #111; 
+}
+
+.card .card-description{
+    display: none;
+}
+
+.card .card-description.des-active{
+    display: contents;
+}
+
+.description-button{
+    float: right;
+}
+
+.textarea-input{
+    margin: 0px 55px;
+    display:inline-block;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.textarea-input label{
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+.textarea-input.w-75 textarea{
+    border-radius: 10px;
+    height: 150px;
+}
+
+.new-thread-btn {
+    margin-bottom: 20px;
+    float: right;
+}
+
+select{
+    box-shadow: 10px 10px 10px -11px #111;    
+    margin: 0px 10px 20px 10px;
+    border-radius: 5px;
+    padding: 3px 8px;
+    float: right;
+    font-size: 13px;
+}
+
+.dropdown-icons {
+    float: right;
+    margin-right: 10px;
+}
+
+.sub-thread-btn {
+    float: left;
+    margin: 5px auto 20px 60px
+}
+
+.btn-new-thread-tb{
+    float: right;
+}
